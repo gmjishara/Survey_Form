@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color:darkgray; margin: 0; border-bottom: 10px rgba(255, 255, 255, 0.851) solid; height: 744px;">
+    <h1 id="name" class="mainClass">Login Form</h1>
+    <div class="main">
+    <form>
+        <label for="textField1"><b>Full Name</b></label>
+        <input id="textField1" type="text" placeholder="Full name">
+
+        <label id="secondName" for="textField2"><b>Telephone</b></label>
+        <input id="textField2" type="text" placeholder="Telephone Number">
+
+        <label id="thirdName" for="textField3"><b>Address</b></label>
+        <input id="textField3" type="text" placeholder="Address">
+
+        <div class="sub">
+            <button onclick="saveButton()" type="button">Save</button>
+            <button onclick="refreshButton()" type="button" style="background-color:brown;">Refresh</button>
+        </div>
+    </form>
+</div>
+
+
+    <h2 id="head1">Name: </h2>
+    <h2 id="head2">Telephone No: </h2>
+    <h2 id="head3">Address: </h2>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
